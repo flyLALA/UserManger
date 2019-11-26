@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="sunneng.com.main.dao.UserMapper">
+    <!--public void insertUser(User user); -->
+    <insert id="insertUser" parameterType="sunneng.com.main.pojo.User">
+        insert into user(user_name,user_nickname,age,sex,education,user_typeId) values (${User.userName},${User.userNickName},${User.age},${User.sex},${User.education},${User.userTypeId})
+    </insert>
+</mapper>
