@@ -27,7 +27,7 @@
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="sunneng.com.main.dao"/>
+        <property name="basePackage" value="com.sunneng.main.dao"/>
     </bean>
 
 </beans>

@@ -1,4 +1,4 @@
-package sunneng.com.main.pojo;
+package com.sunneng.main.pojo;
 
 public class User {
     private String  id; // id

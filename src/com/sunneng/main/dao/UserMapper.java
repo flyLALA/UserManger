@@ -1,6 +1,6 @@
-package sunneng.com.main.dao;
+package com.sunneng.main.dao;
 
-import sunneng.com.main.pojo.User;
+import com.sunneng.main.pojo.User;
 
 public interface UserMapper {
     // 新增一個用戶

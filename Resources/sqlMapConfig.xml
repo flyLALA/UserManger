@@ -5,11 +5,11 @@
 <configuration>
     <typeAliases>
         <!-- 2. 指定扫描包，会把包内所有的类都设置别名，别名的名称就是类名，大小写不敏感 -->
-        <package name="sunneng.com.main.pojo" />
+        <package name="com.sunneng.main.pojo" />
     </typeAliases>
 
     <mappers>
-        <package name="sunneng.com.main.dao"/>
+        <package name="com.sunneng.main.dao"/>
     </mappers>
 
 </configuration>

@@ -1,9 +1,9 @@
 
-package sunneng.com.main.service;
+package com.sunneng.main.service;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import sunneng.com.main.dao.UserTypeMapper;
-import sunneng.com.main.pojo.UserType;
+import com.sunneng.main.dao.UserTypeMapper;
+import com.sunneng.main.pojo.UserType;
 
 public class TestMaybits {
 

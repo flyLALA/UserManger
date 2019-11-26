@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
 PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="sunneng.com.main.dao.UserTypeMapper">
-    <insert id="insertUserType" parameterType="sunneng.com.main.pojo.UserType">
+<mapper namespace="com.sunneng.main.dao.UserTypeMapper">
+    <insert id="insertUserType" parameterType="com.sunneng.main.pojo.UserType">
         insert into usertype(user_type) value(#{userType})
     </insert>
     
